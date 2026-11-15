@@ -1,4 +1,4 @@
-import 'package:simple_live_core/simple_live_core.dart';
+import 'package:livecore/livecore.dart';
 import 'package:simple_live_tv_app/app/app_focus_node.dart';
 
 class Sites {

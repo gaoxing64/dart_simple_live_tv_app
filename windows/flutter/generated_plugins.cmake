@@ -10,7 +10,7 @@ list(APPEND FLUTTER_PLUGIN_LIST
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
-  rust_lib_simple_live_app
+  rust_lib_livecore
 )
 
 set(PLUGIN_BUNDLED_LIBRARIES)

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:qr_flutter/qr_flutter.dart';
-import 'package:simple_live_core/simple_live_core.dart';
+import 'package:livecore/livecore.dart';
 import 'package:simple_live_tv_app/app/app_style.dart';
 
 

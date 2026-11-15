@@ -1,6 +1,6 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_rx/src/rx_types/rx_types.dart';
-import 'package:simple_live_core/simple_live_core.dart';
+import 'package:livecore/livecore.dart';
 import 'package:simple_live_tv_app/app/app_focus_node.dart';
 import 'package:simple_live_tv_app/app/constant.dart';
 import 'package:simple_live_tv_app/app/controller/base_controller.dart';

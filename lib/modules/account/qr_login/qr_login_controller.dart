@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:get/get.dart';
 
-import 'package:simple_live_core/simple_live_core.dart';
+import 'package:livecore/livecore.dart';
 import 'package:simple_live_tv_app/app/log.dart';
 import 'package:simple_live_tv_app/app/sites.dart';
 import 'package:simple_live_tv_app/models/db/account.dart';

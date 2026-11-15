@@ -1,7 +1,7 @@
 name: simple_live_tv_app
 description: A new Flutter project.
 publish_to: "none"
-version: 1.5.1+10501
+version: 1.5.2+10502
 
 environment:
   sdk: ">=3.1.2 <4.0.0"
@@ -10,11 +10,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  simple_live_core:
-    path: ../simple_live_core
-  # Rust Core（slive-core）FFI 构建插件 —— 与主 App 共用同一 crate
-  rust_lib_simple_live_app:
-    path: ../simple_live_core/rust_builder
+  livecore:
+    git:
+      url: https://github.com/gaoxing64/livecore.git
+      ref: future
+  rust_lib_livecore:
+    git:
+      url: https://github.com/gaoxing64/livecore.git
+      path: rust_builder
+      ref: future
   cupertino_icons: ^1.0.2
   remixicon: ^1.0.0 #Remix图标
 
